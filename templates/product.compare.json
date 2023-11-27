@@ -1,0 +1,151 @@
+{
+  "sections": {
+    "main": {
+      "type": "static-product-compare",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "text": "Product information"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "9b1ec7c6-e99b-43e1-bfa7-7ecc986d5a69": {
+          "type": "dynamic_comparison",
+          "settings": {
+            "title": "Specifications",
+            "text": "<p>{{ product.metafields.custom.specifications_ | metafield_tag }}<\/p>"
+          }
+        },
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "inventory-status": {
+          "type": "availability",
+          "settings": {
+            "inventory_display": "hidden",
+            "inventory_transfer_notice": true
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "heading-2": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Specifications"
+          }
+        },
+        "dynamic-comparison": {
+          "type": "dynamic_comparison",
+          "disabled": true,
+          "settings": {
+            "title": "Dimensions",
+            "text": "<p>Use this text to share additional information about your product.<\/p>"
+          }
+        },
+        "dynamic-comparison-2": {
+          "type": "dynamic_comparison",
+          "disabled": true,
+          "settings": {
+            "title": "Weight",
+            "text": "<p>Use this text to share additional information about your product.<\/p>"
+          }
+        },
+        "dynamic-comparison-3": {
+          "type": "dynamic_comparison",
+          "disabled": true,
+          "settings": {
+            "title": "General features",
+            "text": "<p>Use this text to share additional information about your product.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "description",
+        "9b1ec7c6-e99b-43e1-bfa7-7ecc986d5a69",
+        "vendor",
+        "inventory-status",
+        "rating",
+        "heading-2",
+        "dynamic-comparison",
+        "dynamic-comparison-2",
+        "dynamic-comparison-3"
+      ],
+      "settings": {
+        "filter_groups": "expand_first"
+      }
+    },
+    "dynamic-highlights-banner": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-delivery",
+            "title": "Free 2-Day Shipping",
+            "text": "<p>We ship the entire Continental US with 2-day shipping<\/p>",
+            "link": ""
+          }
+        },
+        "highlight-2": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-transfer",
+            "title": "Free 30 Days Returns",
+            "text": "<p>We will provide a paid return mailing label. Just print and affix.<\/p>",
+            "link": ""
+          }
+        },
+        "highlight-3": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-chat-alternate",
+            "title": "Chat With Us",
+            "text": "<p>We're here for you via Live Chat or Phone Call (305) 373-7900<\/p>",
+            "link": ""
+          }
+        },
+        "highlight-4": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-credit-card",
+            "title": "Buy Now and Pay Later",
+            "text": "<p>Spend nothing upfront and get to know it before you pay for it<\/p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight",
+        "highlight-2",
+        "highlight-3",
+        "highlight-4"
+      ],
+      "settings": {
+        "section_spacing": true,
+        "section_width": "full-width",
+        "icon_layout": "center",
+        "color": "#4d4d4d",
+        "icon_color": "#046e82",
+        "background_color": "rgba(0,0,0,0)",
+        "mobile_layout": "slider"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic-highlights-banner"
+  ]
+}

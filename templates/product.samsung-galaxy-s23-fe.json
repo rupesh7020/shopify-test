@@ -1,0 +1,378 @@
+{
+  "sections": {
+    "main": {
+      "type": "static-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "b205493f-ef1e-4667-a9bb-c090d2059f40": {
+          "type": "return-product",
+          "settings": {
+            "return_text": "Free Returns & Free 2 Day Shipping",
+            "pop-up": "<p>You can return this device in its new and unused condition:<br\/>No shipping charges;<br\/>we will provide a shipping label.<\/p><p>Free 2 Day shipping to US addresses only<\/p>"
+          }
+        },
+        "868ff3e9-17d9-457b-b7fb-5403ea403075": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "87b5a4e8-3f6c-4109-a054-5dad4f0d6739": {
+          "type": "collapsible-tab",
+          "settings": {
+            "collapsible_tab_heading": "Specifications",
+            "collapsible_tab_text": "<p>{{ product.metafields.custom.specifications_ | metafield_tag }}<\/p>"
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "enable_local_pickup": true
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "2f416df3-605b-4ee0-bcc2-35c242ab530b": {
+          "type": "request_quote",
+          "settings": {
+            "title": "Request a quote if you want to buy 10 or more units",
+            "show_quantity": true,
+            "show_message": true
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor",
+        "price",
+        "b205493f-ef1e-4667-a9bb-c090d2059f40",
+        "868ff3e9-17d9-457b-b7fb-5403ea403075",
+        "description",
+        "87b5a4e8-3f6c-4109-a054-5dad4f0d6739",
+        "form",
+        "share",
+        "2f416df3-605b-4ee0-bcc2-35c242ab530b"
+      ],
+      "settings": {
+        "gallery_aspect_ratio": "natural",
+        "gallery_image_crop": false,
+        "gallery_thumbnail_position": "left",
+        "gallery_video_autoplay": true,
+        "gallery_video_looping": true,
+        "gallery_hover_zoom": "disabled",
+        "gallery_click_to_zoom": "always"
+      }
+    },
+    "1634875504a35f0c75": {
+      "type": "dynamic-logo-list",
+      "blocks": {
+        "1634875504a35f0c75-2": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/googlepay.jpg",
+            "link": ""
+          }
+        },
+        "1634875504a35f0c75-3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/applepay.jpg",
+            "link": ""
+          }
+        },
+        "1634875504a35f0c75-0": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shoppay.jpg",
+            "link": ""
+          }
+        },
+        "1634875504a35f0c75-1": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/paypal.jpg",
+            "link": ""
+          }
+        },
+        "1afa2862-bebe-4d69-8f7c-1900947f892e": {
+          "type": "logo",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/affirm.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1634875504a35f0c75-2",
+        "1634875504a35f0c75-3",
+        "1634875504a35f0c75-0",
+        "1634875504a35f0c75-1",
+        "1afa2862-bebe-4d69-8f7c-1900947f892e"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Your preferred checkout method is available"
+      }
+    },
+    "d8acdfd4-768e-4c20-9ee0-b2ec16f20722": {
+      "type": "dynamic-html",
+      "settings": {
+        "title": "From the manufacturer",
+        "custom_html": ""
+      }
+    },
+    "3cffa48d-d68a-4ff9-acd7-3dd03a23551a": {
+      "type": "pxs-image-with-text-overlay",
+      "settings": {
+        "section_height": "original",
+        "image": "shopify:\/\/shop_images\/s23_fe_12.png",
+        "title": "",
+        "text": "",
+        "content_position": "center-center",
+        "color": "#ffffff",
+        "overlay_background": "#000000",
+        "overlay_opacity": 0,
+        "link": "",
+        "button_text": ""
+      }
+    },
+    "00e65b9b-c5ec-4e89-a2f1-1d4e33d6951d": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/s23_fe.png",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "Meet the latest addition to Galaxy S23 Series",
+        "subheading": "<p>Open the door to the extraordinary with long-lasting power and stunning night shots.<\/p><p>Colored to capture attention, you can choose from Mint, Graphite, Cream and Purple, all designed to perfectly complement your style.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "1588f9a1-ead2-4494-9a15-d221ee1eeba9": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/s23_fe_11.png",
+        "desktop_height": "natural",
+        "mobile_height": "300px",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Durability you can count on",
+        "subheading": "<p>With Corning® Gorilla® Glass 5 shielding the front and back, Galaxy S23 FE is built to last. An IP68 rating means your device is water and dust resistant for extra durability.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "3c64d348-a139-4d9c-bf3a-df217d86c184": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/s23_fe_8.png",
+        "desktop_height": "natural",
+        "mobile_height": "300px",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "Your best photos, day or night",
+        "subheading": "<p>A pro-grade camera turns your shots into works of art, no matter the time of day. Get detail and clarity in every photo with a high-resolution sensor. Because life happens even in low light. Nightography lets you capture epic photos, no matter where you are or what time of day. The dark is no longer a deal- breaker.<\/p>",
+        "text_alignment": "left",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "b9731452-52cb-48b7-aa7e-d1f08fa34623": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/s23_fe_9.png",
+        "desktop_height": "natural",
+        "mobile_height": "300px",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "The secret to stunning selfies",
+        "subheading": "<p>Show off the real you with the selfie-ready Front Camera. Clarity and consistency create a lasting impression.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "d0ba829a-e9e3-4d1c-a6b5-3a73125681be": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/s23_fe_7.png",
+        "desktop_height": "natural",
+        "mobile_height": "300px",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "Do-it-all processing power",
+        "subheading": "<p>Give your livestreaming, video editing and social content creation a boost with the premium processing power you expect from Samsung Galaxy.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "8f3af1d3-ed95-438a-9493-7d50b68a28ee": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/s23_fe_14.png",
+        "desktop_height": "natural",
+        "mobile_height": "300px",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "A long-lasting battery you can rely on",
+        "subheading": "<p>Get the power you need for the things you love with a smart battery that keeps you going all day and into the night.5,6,7<\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "recently-viewed": {
+      "type": "static-recently-viewed",
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    },
+    "1684145330418fdfe2": {
+      "type": "apps",
+      "blocks": {
+        "70f332ad-27c6-4a5d-8a3b-7c55feff5bce": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "70f332ad-27c6-4a5d-8a3b-7c55feff5bce"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "164073454472806740": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "recommendations": {
+      "type": "static-product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "1640683964d65b02d9": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "1640683964be3db333-0": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-delivery",
+            "title": "Free 2-Day Shipping",
+            "text": "<p>We ship the entire Continental US with 2-day shipping<\/p>",
+            "link": "https:\/\/www.wirelessplace.com\/policies\/shipping-policy"
+          }
+        },
+        "1640683964be3db333-1": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-transfer",
+            "title": "Free 30 Days Returns",
+            "text": "<p>We will provide a paid return mailing label. Just print and affix.<\/p>",
+            "link": "https:\/\/www.wirelessplace.com\/policies\/refund-policy"
+          }
+        },
+        "1640683964be3db333-2": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-chat-alternate",
+            "title": "Chat with us",
+            "text": "<p>We're here for you via Live Chat or Phone Call (305) 373-7900<\/p>",
+            "link": ""
+          }
+        },
+        "1640683964be3db333-3": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-credit-card",
+            "title": "Buy Now and Pay Later",
+            "text": "<p>Spend nothing upfront and get to know it before you pay for it<\/p>",
+            "link": "https:\/\/www.wirelessplace.com\/pages\/pay-in-4-with-pay-pal"
+          }
+        }
+      },
+      "block_order": [
+        "1640683964be3db333-0",
+        "1640683964be3db333-1",
+        "1640683964be3db333-2",
+        "1640683964be3db333-3"
+      ],
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "left",
+        "color": "#4d4d4d",
+        "icon_color": "#4d4d4d",
+        "background_color": "#f8f8f8",
+        "mobile_layout": "slider"
+      }
+    },
+    "1657118673a51980ae": {
+      "type": "dynamic-page",
+      "settings": {
+        "width": "full-width",
+        "page": "why-buy-unlocked-phones-test-page",
+        "show_heading": true,
+        "heading_size": "medium"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1634875504a35f0c75",
+    "d8acdfd4-768e-4c20-9ee0-b2ec16f20722",
+    "3cffa48d-d68a-4ff9-acd7-3dd03a23551a",
+    "00e65b9b-c5ec-4e89-a2f1-1d4e33d6951d",
+    "1588f9a1-ead2-4494-9a15-d221ee1eeba9",
+    "3c64d348-a139-4d9c-bf3a-df217d86c184",
+    "b9731452-52cb-48b7-aa7e-d1f08fa34623",
+    "d0ba829a-e9e3-4d1c-a6b5-3a73125681be",
+    "8f3af1d3-ed95-438a-9493-7d50b68a28ee",
+    "recently-viewed",
+    "1684145330418fdfe2",
+    "164073454472806740",
+    "recommendations",
+    "1640683964d65b02d9",
+    "1657118673a51980ae"
+  ]
+}

@@ -1,0 +1,369 @@
+{
+  "sections": {
+    "main": {
+      "type": "static-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "6d9c1f02-b802-4dac-8efe-498cf4fa45ca": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_display": "all_products",
+            "inventory_transfer_notice": true
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "252dcf63-2cb3-4c49-8a30-2d6f947f5fd5": {
+          "type": "return-product",
+          "settings": {
+            "return_text": "Free Returns & Free 2 Day Shipping",
+            "pop-up": "<p>You can return this device in its new and unused condition:<br\/>No shipping charges;<br\/>we will provide a shipping label.<\/p><p>Free 2 Day shipping to US addresses only<\/p>"
+          }
+        },
+        "6e1c2f38-8f14-4ad8-864a-7f536e0ad88b": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "daec15b4-3d31-4738-8369-b1a141b1a2c3": {
+          "type": "collapsible-tab",
+          "settings": {
+            "collapsible_tab_heading": "Specifications",
+            "collapsible_tab_text": "<p>{{ product.metafields.custom.specifications_ | metafield_tag }}<\/p>"
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "enable_local_pickup": true
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "14ee98c8-913e-41a1-8a00-87d0a3db6e2e": {
+          "type": "request_quote",
+          "settings": {
+            "title": "Request a quote if you want to buy 10 or more units",
+            "show_quantity": true,
+            "show_message": true
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor",
+        "6d9c1f02-b802-4dac-8efe-498cf4fa45ca",
+        "price",
+        "252dcf63-2cb3-4c49-8a30-2d6f947f5fd5",
+        "6e1c2f38-8f14-4ad8-864a-7f536e0ad88b",
+        "description",
+        "daec15b4-3d31-4738-8369-b1a141b1a2c3",
+        "form",
+        "share",
+        "14ee98c8-913e-41a1-8a00-87d0a3db6e2e"
+      ],
+      "settings": {
+        "gallery_aspect_ratio": "natural",
+        "gallery_image_crop": false,
+        "gallery_thumbnail_position": "left",
+        "gallery_video_autoplay": true,
+        "gallery_video_looping": true,
+        "gallery_hover_zoom": "disabled",
+        "gallery_click_to_zoom": "always"
+      }
+    },
+    "1634875504a35f0c75": {
+      "type": "dynamic-logo-list",
+      "blocks": {
+        "1634875504a35f0c75-2": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/googlepay.jpg",
+            "link": ""
+          }
+        },
+        "1634875504a35f0c75-3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/applepay.jpg",
+            "link": ""
+          }
+        },
+        "1634875504a35f0c75-0": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shoppay.jpg",
+            "link": ""
+          }
+        },
+        "1634875504a35f0c75-1": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/paypal.jpg",
+            "link": ""
+          }
+        },
+        "1afa2862-bebe-4d69-8f7c-1900947f892e": {
+          "type": "logo",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/affirm.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1634875504a35f0c75-2",
+        "1634875504a35f0c75-3",
+        "1634875504a35f0c75-0",
+        "1634875504a35f0c75-1",
+        "1afa2862-bebe-4d69-8f7c-1900947f892e"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Your preferred checkout method is available"
+      }
+    },
+    "57390837-b013-4500-a0c8-a67bef48d1ef": {
+      "type": "dynamic-video",
+      "settings": {
+        "title": "From the Manufacturer",
+        "url": "https:\/\/www.youtube.com\/watch?v=8EPn6V_i4CQ",
+        "show_caption": false,
+        "caption": "<p>A short description of the video.<\/p>",
+        "autoplay": false,
+        "aspect_ratio": "21-9",
+        "show_overlay": false,
+        "background": "#000000",
+        "opacity": 50
+      }
+    },
+    "1588f9a1-ead2-4494-9a15-d221ee1eeba9": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/71-K0XyfXOL._AC_SL1500.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "300px",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Flex. Pose. Post.",
+        "subheading": "<p>Capture hands-free selfies, photos and videos wherever you go.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "00e65b9b-c5ec-4e89-a2f1-1d4e33d6951d": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/69cf281f-4e7f-468a-9bec-7d547f0d.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "300px",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "Capture on one screen, text on the other.",
+        "subheading": "<p>Capture your content hands-free on the top screen, and scroll on the bottom.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "3c64d348-a139-4d9c-bf3a-df217d86c184": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/dbb93020-c938-49c6-83b0-b35b77ef.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "300px",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Perfectly pocket-sized",
+        "subheading": "<p>Enjoy the compact design of Samsung Galaxy Z Flip4 and say bye to bulk.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "b9731452-52cb-48b7-aa7e-d1f08fa34623": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/71tkKd28TfL._AC_SL1500.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "300px",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "Never miss a notification",
+        "subheading": "<p>Read notifications on the customizable cover screem while your phone stays compact.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "a7d2dc35-c156-4f8c-9b6f-8972ae3aea95": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/Is-the-Galaxy-Z-Flip-4-waterproo.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "300px",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Built for fun. Built for life.",
+        "subheading": "<p>Built for fun, built for life. Folding screen technology that stands the test of time.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "c886f31b-0222-4a41-a433-48c800c4c10f": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/61uTAb8gTtL._AC_SL1500.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "300px",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "A reliable, improved battery",
+        "subheading": "<p>Our improved battery for Galaxy Z Flip4 keeps you powered up and ready for the day.<\/p><p>*Based on average battery life under typical usage conditions. Average expected performance based on typical use. Actual battery life depends on factors such as network features selected, frequency of calls, and voice, data, and other application usage patterns.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "recently-viewed": {
+      "type": "static-recently-viewed",
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    },
+    "16841453911f882846": {
+      "type": "apps",
+      "blocks": {
+        "978edf09-3fba-48dc-811b-3fc2b4dbaab0": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "978edf09-3fba-48dc-811b-3fc2b4dbaab0"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "recommendations": {
+      "type": "static-product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "1640683964d65b02d9": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "1640683964be3db333-0": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-delivery",
+            "title": "Free 2-Day Shipping",
+            "text": "<p>We ship the entire Continental US with 2-day shipping<\/p>",
+            "link": "https:\/\/www.wirelessplace.com\/policies\/shipping-policy"
+          }
+        },
+        "1640683964be3db333-1": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-transfer",
+            "title": "Free 30 Days Returns",
+            "text": "<p>We will provide a paid return mailing label. Just print and affix.<\/p>",
+            "link": "https:\/\/www.wirelessplace.com\/policies\/refund-policy"
+          }
+        },
+        "1640683964be3db333-2": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-chat-alternate",
+            "title": "Chat with us",
+            "text": "<p>We're here for you via Live Chat or Phone Call (305) 373-7900<\/p>",
+            "link": ""
+          }
+        },
+        "1640683964be3db333-3": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-credit-card",
+            "title": "Buy Now and Pay Later",
+            "text": "<p>Spend nothing upfront and get to know it before you pay for it<\/p>",
+            "link": "https:\/\/www.wirelessplace.com\/pages\/pay-in-4-with-pay-pal"
+          }
+        }
+      },
+      "block_order": [
+        "1640683964be3db333-0",
+        "1640683964be3db333-1",
+        "1640683964be3db333-2",
+        "1640683964be3db333-3"
+      ],
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "left",
+        "color": "#4d4d4d",
+        "icon_color": "#4d4d4d",
+        "background_color": "#f8f8f8",
+        "mobile_layout": "slider"
+      }
+    },
+    "1657118673a51980ae": {
+      "type": "dynamic-page",
+      "settings": {
+        "width": "full-width",
+        "page": "why-buy-unlocked-phones-test-page",
+        "show_heading": true,
+        "heading_size": "medium"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1634875504a35f0c75",
+    "57390837-b013-4500-a0c8-a67bef48d1ef",
+    "1588f9a1-ead2-4494-9a15-d221ee1eeba9",
+    "00e65b9b-c5ec-4e89-a2f1-1d4e33d6951d",
+    "3c64d348-a139-4d9c-bf3a-df217d86c184",
+    "b9731452-52cb-48b7-aa7e-d1f08fa34623",
+    "a7d2dc35-c156-4f8c-9b6f-8972ae3aea95",
+    "c886f31b-0222-4a41-a433-48c800c4c10f",
+    "recently-viewed",
+    "16841453911f882846",
+    "recommendations",
+    "1640683964d65b02d9",
+    "1657118673a51980ae"
+  ]
+}

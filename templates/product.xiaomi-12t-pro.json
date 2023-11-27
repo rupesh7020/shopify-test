@@ -1,0 +1,244 @@
+{
+  "sections": {
+    "main": {
+      "type": "static-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "7160224c-e231-4956-b881-8bac6145d549": {
+          "type": "return-product",
+          "settings": {
+            "return_text": "Free Returns & Free 2 Day Shipping",
+            "pop-up": "<p>You can return this device in its new and unused condition:<br\/>No shipping charges;<br\/>we will provide a shipping label.<\/p><p>Free 2 Day shipping to US addresses only<\/p>"
+          }
+        },
+        "d4c13a7d-36eb-43ac-9fc6-26f89619040b": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "113772b9-6139-471d-8283-62dbf07d6268": {
+          "type": "collapsible-tab",
+          "settings": {
+            "collapsible_tab_heading": "Specifications",
+            "collapsible_tab_text": "<p>{{ product.metafields.custom.specifications_ | metafield_tag }}<\/p>"
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "enable_local_pickup": true
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "42e8dc64-7f53-4afc-98b5-be99decf365a": {
+          "type": "request_quote",
+          "settings": {
+            "title": "Request a quote if you want to buy 10 or more units",
+            "show_quantity": true,
+            "show_message": true
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor",
+        "price",
+        "7160224c-e231-4956-b881-8bac6145d549",
+        "d4c13a7d-36eb-43ac-9fc6-26f89619040b",
+        "description",
+        "113772b9-6139-471d-8283-62dbf07d6268",
+        "form",
+        "share",
+        "42e8dc64-7f53-4afc-98b5-be99decf365a"
+      ],
+      "settings": {
+        "gallery_aspect_ratio": "natural",
+        "gallery_image_crop": false,
+        "gallery_thumbnail_position": "left",
+        "gallery_video_autoplay": true,
+        "gallery_video_looping": true,
+        "gallery_hover_zoom": "disabled",
+        "gallery_click_to_zoom": "always"
+      }
+    },
+    "1634875504a35f0c75": {
+      "type": "dynamic-logo-list",
+      "blocks": {
+        "1634875504a35f0c75-2": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/googlepay.jpg",
+            "link": ""
+          }
+        },
+        "1634875504a35f0c75-3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/applepay.jpg",
+            "link": ""
+          }
+        },
+        "1634875504a35f0c75-0": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shoppay.jpg",
+            "link": ""
+          }
+        },
+        "1634875504a35f0c75-1": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/paypal.jpg",
+            "link": ""
+          }
+        },
+        "1afa2862-bebe-4d69-8f7c-1900947f892e": {
+          "type": "logo",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/affirm.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1634875504a35f0c75-2",
+        "1634875504a35f0c75-3",
+        "1634875504a35f0c75-0",
+        "1634875504a35f0c75-1",
+        "1afa2862-bebe-4d69-8f7c-1900947f892e"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Your preferred checkout method is available"
+      }
+    },
+    "recently-viewed": {
+      "type": "static-recently-viewed",
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    },
+    "164073454472806740": {
+      "type": "apps",
+      "blocks": {
+        "0b1510fc-753c-4dbb-b46c-38acb9ca8e6a": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "0b1510fc-753c-4dbb-b46c-38acb9ca8e6a"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "recommendations": {
+      "type": "static-product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "1640683964d65b02d9": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "1640683964be3db333-0": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-delivery",
+            "title": "Free 2-Day Shipping",
+            "text": "<p>We ship the entire Continental US with 2-day shipping<\/p>",
+            "link": "https:\/\/www.wirelessplace.com\/policies\/shipping-policy"
+          }
+        },
+        "1640683964be3db333-1": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-transfer",
+            "title": "Free 30 Days Returns",
+            "text": "<p>We will provide a paid return mailing label. Just print and affix.<\/p>",
+            "link": "https:\/\/www.wirelessplace.com\/policies\/refund-policy"
+          }
+        },
+        "1640683964be3db333-2": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-chat-alternate",
+            "title": "Chat with us",
+            "text": "<p>We're here for you via Live Chat or Phone Call (305) 373-7900<\/p>",
+            "link": ""
+          }
+        },
+        "1640683964be3db333-3": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-credit-card",
+            "title": "Buy Now and Pay Later",
+            "text": "<p>Spend nothing upfront and get to know it before you pay for it<\/p>",
+            "link": "https:\/\/www.wirelessplace.com\/pages\/pay-in-4-with-pay-pal"
+          }
+        }
+      },
+      "block_order": [
+        "1640683964be3db333-0",
+        "1640683964be3db333-1",
+        "1640683964be3db333-2",
+        "1640683964be3db333-3"
+      ],
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "left",
+        "color": "#4d4d4d",
+        "icon_color": "#4d4d4d",
+        "background_color": "#f8f8f8",
+        "mobile_layout": "slider"
+      }
+    },
+    "1657118673a51980ae": {
+      "type": "dynamic-page",
+      "settings": {
+        "width": "full-width",
+        "page": "why-buy-unlocked-phones-test-page",
+        "show_heading": true,
+        "heading_size": "medium"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1634875504a35f0c75",
+    "recently-viewed",
+    "164073454472806740",
+    "recommendations",
+    "1640683964d65b02d9",
+    "1657118673a51980ae"
+  ]
+}

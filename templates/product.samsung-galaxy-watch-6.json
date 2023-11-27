@@ -1,0 +1,395 @@
+{
+  "sections": {
+    "main": {
+      "type": "static-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "801d0331-80d6-43c5-bae7-4937a61d1916": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_display": "all_products",
+            "inventory_transfer_notice": true
+          }
+        },
+        "06a6ac48-2373-4ab8-9403-1b13915d457e": {
+          "type": "return-product",
+          "settings": {
+            "return_text": "Free Returns & Free 2 Day Shipping",
+            "pop-up": "<p>You can return this device in its new and unused condition:<br\/>No shipping charges;<br\/>we will provide a shipping label.<\/p><p>Free 2 Day shipping to US addresses only<\/p>"
+          }
+        },
+        "0114ae5a-cfd1-4fda-bdcc-2880f23a4a4c": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "80f4fe46-8123-403d-8e20-8cadba9af3e4": {
+          "type": "collapsible-tab",
+          "settings": {
+            "collapsible_tab_heading": "Specifications",
+            "collapsible_tab_text": "<p>{{ product.metafields.custom.specifications_ | metafield_tag }}<\/p>"
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "enable_local_pickup": true
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "4fd972c0-cfe5-431f-b730-1dd41e7a4a5a": {
+          "type": "request_quote",
+          "settings": {
+            "title": "Request a quote if you want to buy 10 or more units",
+            "show_quantity": true,
+            "show_message": true
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor",
+        "price",
+        "801d0331-80d6-43c5-bae7-4937a61d1916",
+        "06a6ac48-2373-4ab8-9403-1b13915d457e",
+        "0114ae5a-cfd1-4fda-bdcc-2880f23a4a4c",
+        "description",
+        "80f4fe46-8123-403d-8e20-8cadba9af3e4",
+        "form",
+        "share",
+        "4fd972c0-cfe5-431f-b730-1dd41e7a4a5a"
+      ],
+      "settings": {
+        "gallery_aspect_ratio": "natural",
+        "gallery_image_crop": false,
+        "gallery_thumbnail_position": "left",
+        "gallery_video_autoplay": true,
+        "gallery_video_looping": true,
+        "gallery_hover_zoom": "disabled",
+        "gallery_click_to_zoom": "always"
+      }
+    },
+    "1634875504a35f0c75": {
+      "type": "dynamic-logo-list",
+      "blocks": {
+        "1634875504a35f0c75-2": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/googlepay.jpg",
+            "link": ""
+          }
+        },
+        "1634875504a35f0c75-3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/applepay.jpg",
+            "link": ""
+          }
+        },
+        "1634875504a35f0c75-0": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shoppay.jpg",
+            "link": ""
+          }
+        },
+        "1634875504a35f0c75-1": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/paypal.jpg",
+            "link": ""
+          }
+        },
+        "1afa2862-bebe-4d69-8f7c-1900947f892e": {
+          "type": "logo",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/affirm.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1634875504a35f0c75-2",
+        "1634875504a35f0c75-3",
+        "1634875504a35f0c75-0",
+        "1634875504a35f0c75-1",
+        "1afa2862-bebe-4d69-8f7c-1900947f892e"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Your preferred checkout method is available"
+      }
+    },
+    "d8acdfd4-768e-4c20-9ee0-b2ec16f20722": {
+      "type": "dynamic-html",
+      "settings": {
+        "title": "From the manufacturer",
+        "custom_html": ""
+      }
+    },
+    "096ed9cf-ca37-4f14-96de-ed9224a57547": {
+      "type": "pxs-image-with-text-overlay",
+      "settings": {
+        "section_height": "original",
+        "image": "shopify:\/\/shop_images\/Main_Banner_Samsung_Galaxy_Watch_6_1.1.1.f.jpg",
+        "title": "SAMSUNG GALAXY WATCH6",
+        "text": "<p><br\/>Unlock your day's full potential with Samsung Galaxy Watch6, featuring our biggest screen and advanced wellness insights.<\/p>",
+        "content_position": "top-center",
+        "color": "#1d1d1d",
+        "overlay_background": "#000000",
+        "overlay_opacity": 0,
+        "link": "",
+        "button_text": ""
+      }
+    },
+    "7c346535-8717-4811-9034-1ae21ffea0cc": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/Main_Banner_Samsung_Galaxy_Watch_6_1.2_e4f63c3d-4f02-4703-af44-2d0e5a691e8a.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "300px",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "Track your workout. Hit your goals.",
+        "subheading": "<p>Work out to your full potential with personalized performance insights.*<\/p><p><br\/><em>* Requires smartphone with Android 8.0 or later, 1.5GB or more RAM and Samsung Health app version 6.22 or later.<\/em><\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "3c64d348-a139-4d9c-bf3a-df217d86c184": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/Main_Banner_Samsung_Galaxy_Watch_6_1.5.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "300px",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Find your zone",
+        "subheading": "<p>Get the most out of your workouts with personalized heart rate zones* that let you train at different intensities to achieve your goals.<\/p><p><br\/><em>* Available only for running workouts. Requires initial set up of 10 minutes of outside running with GPS on; smartphone with Android 8.0 or later, 1.5GB or more RAM and Samsung Health app version 6.22 or later.<\/em><\/p>",
+        "text_alignment": "left",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "b9731452-52cb-48b7-aa7e-d1f08fa34623": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/Main_Banner_Samsung_Galaxy_Watch_6_1.7.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "300px",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "Always-on heart monitoring*",
+        "subheading": "<p>Get ahead of your heart health with a Watch that continually scans your heart rate for irregular rhythms.*<br\/><br\/><em>*Requires Samsung Galaxy Smartphone with Android 7.0 or later, and Samsung Health Monitor app (available only at the Samsung Galaxy app store). The ECG Monitor App intended for adults 22 years and older analyzes pulse rate data to identify episodes of irregular heart rhythms suggestive of AFib and provides a notification suggesting the user record an ECG to analyze the heart rhythm. The IHRN feature is not intended to provide a notification on every episode of irregular rhythm suggestive of AFib and the absence of a notification is not intended to indicate no disease process is present; rather the feature is intended to opportunistically acquire pulse rate data when the user is still and analyze the data when determined sufficient toward surfacing a notification. The ECG Monitor App is not intended to replace traditional methods of diagnosis or treatment. The ECG app is not intended for users with known arrhythmias other than AFib or users under 22 years old. Users should not interpret or take clinical action based on the device output without consultation of a qualified healthcare professional.<br\/>App never looks for heart attack<\/em><\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "da0136d9-6694-4df5-870f-435c72cce6ae": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/Main_Banner_Samsung_Galaxy_Watch_6_1.8.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "300px",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Better days start with better sleep",
+        "subheading": "<p>Advanced Sleep Coaching* helps you sleep<br\/>better so you wake up ready to take on your day.<\/p><p><br\/><em>* Requires smartphone with Android 8.0 or later, 1.5GB or more RAM and Samsung Health app version 6.22 or later.<\/em><\/p>",
+        "text_alignment": "left",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "4bb23f51-6944-4e98-beee-27f14e3573e3": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/Main_Banner_Samsung_Galaxy_Watch_6_1.6.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "300px",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "Know your body inside and out",
+        "subheading": "<p>Learn more about your overall health and wellness with readings on body fat, skeletal muscle, body water, Body Mass Index (BMI) and more anytime, anywhere.<\/p><p><br\/>* The Samsung BIA is a body analyzer that uses bioelectrical impedance analysis (BIA) technology to track body composition based on weight, body fat, body mass index (BMI), skeletal muscle, body water, and basal metabolic rate (BMR) measurements. It is not intended to specifically diagnose or treat a medical condition.<br\/>Requires smartphone with Android 8.0 or later, 1.5GB or more RAM and Samsung Health app version 6.22 or later.<br\/><\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "00e65b9b-c5ec-4e89-a2f1-1d4e33d6951d": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/Main_Banner_Samsung_Galaxy_Watch_6_1.3.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "300px",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Keep connected on the go",
+        "subheading": "<p>Jam out, take calls, text and do more with a Watch<br\/>that syncs seamlessly with your Galaxy devices.*<\/p><p><br\/><em>* Compatibility for Galaxy wearable apps: Android 8.0 or later, 1.5GB of RAM. Shown: Galaxy Watch6 Classic.<\/em><\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "1588f9a1-ead2-4494-9a15-d221ee1eeba9": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/Main_Banner_Samsung_Galaxy_Watch_6_1.4.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "300px",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "Our largest Watch display yet*",
+        "subheading": "<p>See and do more with an improved experience on our largest display yet.* It's made of durable crystal glass to stand up to everyday bumps and scratches.<\/p><p><br\/><em>* 44mm Galaxy Watch6 model only.<\/em><\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "recently-viewed": {
+      "type": "static-recently-viewed",
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    },
+    "168414526434f3ef27": {
+      "type": "apps",
+      "blocks": {
+        "49aef4dd-57db-4ccb-8e96-3937a3af8b06": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "49aef4dd-57db-4ccb-8e96-3937a3af8b06"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "recommendations": {
+      "type": "static-product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "1640683964d65b02d9": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "1640683964be3db333-0": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-delivery",
+            "title": "Free 2-Day Shipping",
+            "text": "<p>We ship the entire Continental US with 2-day shipping<\/p>",
+            "link": "https:\/\/www.wirelessplace.com\/policies\/shipping-policy"
+          }
+        },
+        "1640683964be3db333-1": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-transfer",
+            "title": "Free 30 Days Returns",
+            "text": "<p>We will provide a paid return mailing label. Just print and affix.<\/p>",
+            "link": "https:\/\/www.wirelessplace.com\/policies\/refund-policy"
+          }
+        },
+        "1640683964be3db333-2": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-chat-alternate",
+            "title": "Chat with us",
+            "text": "<p>We're here for you via Live Chat or Phone Call (305) 373-7900<\/p>",
+            "link": ""
+          }
+        },
+        "1640683964be3db333-3": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-credit-card",
+            "title": "Buy Now and Pay Later",
+            "text": "<p>Spend nothing upfront and get to know it before you pay for it<\/p>",
+            "link": "https:\/\/www.wirelessplace.com\/pages\/pay-in-4-with-pay-pal"
+          }
+        }
+      },
+      "block_order": [
+        "1640683964be3db333-0",
+        "1640683964be3db333-1",
+        "1640683964be3db333-2",
+        "1640683964be3db333-3"
+      ],
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "left",
+        "color": "#4d4d4d",
+        "icon_color": "#4d4d4d",
+        "background_color": "#f8f8f8",
+        "mobile_layout": "slider"
+      }
+    },
+    "1657118673a51980ae": {
+      "type": "dynamic-page",
+      "settings": {
+        "width": "full-width",
+        "page": "why-buy-unlocked-phones-test-page",
+        "show_heading": true,
+        "heading_size": "medium"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1634875504a35f0c75",
+    "d8acdfd4-768e-4c20-9ee0-b2ec16f20722",
+    "096ed9cf-ca37-4f14-96de-ed9224a57547",
+    "7c346535-8717-4811-9034-1ae21ffea0cc",
+    "3c64d348-a139-4d9c-bf3a-df217d86c184",
+    "b9731452-52cb-48b7-aa7e-d1f08fa34623",
+    "da0136d9-6694-4df5-870f-435c72cce6ae",
+    "4bb23f51-6944-4e98-beee-27f14e3573e3",
+    "00e65b9b-c5ec-4e89-a2f1-1d4e33d6951d",
+    "1588f9a1-ead2-4494-9a15-d221ee1eeba9",
+    "recently-viewed",
+    "168414526434f3ef27",
+    "recommendations",
+    "1640683964d65b02d9",
+    "1657118673a51980ae"
+  ]
+}

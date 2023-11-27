@@ -1,0 +1,370 @@
+{
+  "sections": {
+    "main": {
+      "type": "static-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "05ce8905-f704-42e8-ad7d-073d942863e6": {
+          "type": "return-product",
+          "settings": {
+            "return_text": "Free Returns & Free 2 Day Shipping",
+            "pop-up": "<p>You can return this device in its new and unused condition:<br\/>No shipping charges;<br\/>we will provide a shipping label.<\/p><p>Free 2 Day shipping to US addresses only<\/p>"
+          }
+        },
+        "2c695bea-2737-4cbb-84af-5647ea94258b": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "dbff1668-72b1-42e4-b8bc-c0c0bef789c9": {
+          "type": "collapsible-tab",
+          "settings": {
+            "collapsible_tab_heading": "Specifications",
+            "collapsible_tab_text": "<p>{{ product.metafields.custom.specifications_ | metafield_tag }}<\/p>"
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "enable_local_pickup": true
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "2c5ae43a-3c07-4c9b-b00d-d3830295d43d": {
+          "type": "request_quote",
+          "settings": {
+            "title": "Request a quote if you want to buy 10 or more units",
+            "show_quantity": true,
+            "show_message": true
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor",
+        "price",
+        "05ce8905-f704-42e8-ad7d-073d942863e6",
+        "2c695bea-2737-4cbb-84af-5647ea94258b",
+        "description",
+        "dbff1668-72b1-42e4-b8bc-c0c0bef789c9",
+        "form",
+        "share",
+        "2c5ae43a-3c07-4c9b-b00d-d3830295d43d"
+      ],
+      "settings": {
+        "gallery_aspect_ratio": "natural",
+        "gallery_image_crop": false,
+        "gallery_thumbnail_position": "left",
+        "gallery_video_autoplay": true,
+        "gallery_video_looping": true,
+        "gallery_hover_zoom": "disabled",
+        "gallery_click_to_zoom": "always"
+      }
+    },
+    "1634875504a35f0c75": {
+      "type": "dynamic-logo-list",
+      "blocks": {
+        "1634875504a35f0c75-2": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/googlepay.jpg",
+            "link": ""
+          }
+        },
+        "1634875504a35f0c75-3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/applepay.jpg",
+            "link": ""
+          }
+        },
+        "1634875504a35f0c75-0": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shoppay.jpg",
+            "link": ""
+          }
+        },
+        "1634875504a35f0c75-1": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/paypal.jpg",
+            "link": ""
+          }
+        },
+        "1afa2862-bebe-4d69-8f7c-1900947f892e": {
+          "type": "logo",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/affirm.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1634875504a35f0c75-2",
+        "1634875504a35f0c75-3",
+        "1634875504a35f0c75-0",
+        "1634875504a35f0c75-1",
+        "1afa2862-bebe-4d69-8f7c-1900947f892e"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Your preferred checkout method is available"
+      }
+    },
+    "d8acdfd4-768e-4c20-9ee0-b2ec16f20722": {
+      "type": "dynamic-html",
+      "settings": {
+        "title": "From the manufacturer",
+        "custom_html": ""
+      }
+    },
+    "3cffa48d-d68a-4ff9-acd7-3dd03a23551a": {
+      "type": "pxs-image-with-text-overlay",
+      "settings": {
+        "section_height": "original",
+        "image": "shopify:\/\/shop_images\/POCOX5_Pro_5G_The_secret_to_win_1.jpg",
+        "title": "",
+        "text": "",
+        "content_position": "center-center",
+        "color": "#ffffff",
+        "overlay_background": "#000000",
+        "overlay_opacity": 0,
+        "link": "",
+        "button_text": ""
+      }
+    },
+    "1588f9a1-ead2-4494-9a15-d221ee1eeba9": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/Processor.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "300px",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Snapdragon® 778G - 6nm 5G strong core",
+        "subheading": "<p>The Snapdragon® 778G is built on TSMC's 6nm process and with four cores based on the ARM Cortex-A78 architecture, excellent performance and experience are guaranteed. The integrated X53 5G modem supports global 5G high-speed networks. Let the powerful core be your secret to winning.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "00e65b9b-c5ec-4e89-a2f1-1d4e33d6951d": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/518a645c9b58b2dc4fa0005221dca749.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "300px",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "Dynamic RAM expansion 3.0 - Smooth next-level experience",
+        "subheading": "<p>The POCO X5 Pro 5G comes with a choice of 6GB and 8GB RAM configurations, expandable up to 11GB or 13GB* thanks to RAM Expansion technology converting up to 5GB of available ROM storage for a smooth next-level experience.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "b9731452-52cb-48b7-aa7e-d1f08fa34623": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/0b3f50d16986336a869b59c0cc7876b4.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "300px",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Flagship camera system - Extraordinary re-upgrade",
+        "subheading": "<p>The flagship all-in-one triple-camera, combined with powerful computing support from the Snapdragon® 778G, delivers superior image quality.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "3c64d348-a139-4d9c-bf3a-df217d86c184": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/Display.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "300px",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "6.67\" Flow AMOLED DotDisplay -  Extraordinary with every glance",
+        "subheading": "<p>For the first time at POCO X series, we have adopted a flagship flexible AMOLED display that continues to deliver on power, performance, and color. Lighter and thinner than ever, the screen bezel is smaller for an even more striking visual impact.<\/p>",
+        "text_alignment": "left",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "eb2214bc-5d90-4dc0-9354-bcee192f3d67": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/Dolby_Atmos.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "300px",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Dolby Vision & Dolby Atmos - Your cinema in the palm of your hand",
+        "subheading": "<p>Dolby Vision delivers stunning brightness, contrast and color for richer image quality. The dual-speaker configuration, plus Dolby Atmos and Hi-Res provides a wide vocal range and exquisite timbre. The immersive audio-visual experience that can only be felt in the cinema is now realised in the palm of your hand!<\/p>",
+        "text_alignment": "left",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "d0ba829a-e9e3-4d1c-a6b5-3a73125681be": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/Battery.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "300px",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "5000mAh Massive Battery - Outstanding endurance",
+        "subheading": "<p>The slim body contains plenty of power. From morning to night, whatever you're playing, the battery easily supports you for hours upon hours.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "recommendations": {
+      "type": "static-product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "164073454472806740": {
+      "type": "apps",
+      "blocks": {
+        "483a6c8c-d7a4-4935-bdf8-e5eb8b6bcb88": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "483a6c8c-d7a4-4935-bdf8-e5eb8b6bcb88"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "recently-viewed": {
+      "type": "static-recently-viewed",
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    },
+    "1640683964d65b02d9": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "1640683964be3db333-0": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-delivery",
+            "title": "Free 2-Day Shipping",
+            "text": "<p>We ship the entire Continental US with 2-day shipping<\/p>",
+            "link": "https:\/\/www.wirelessplace.com\/policies\/shipping-policy"
+          }
+        },
+        "1640683964be3db333-1": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-transfer",
+            "title": "Free 30 Days Returns",
+            "text": "<p>We will provide a paid return mailing label. Just print and affix.<\/p>",
+            "link": "https:\/\/www.wirelessplace.com\/policies\/refund-policy"
+          }
+        },
+        "1640683964be3db333-2": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-chat-alternate",
+            "title": "Chat with us",
+            "text": "<p>We're here for you via Live Chat or Phone Call (305) 373-7900<\/p>",
+            "link": ""
+          }
+        },
+        "1640683964be3db333-3": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-credit-card",
+            "title": "Buy Now and Pay Later",
+            "text": "<p>Spend nothing upfront and get to know it before you pay for it<\/p>",
+            "link": "https:\/\/www.wirelessplace.com\/pages\/pay-in-4-with-pay-pal"
+          }
+        }
+      },
+      "block_order": [
+        "1640683964be3db333-0",
+        "1640683964be3db333-1",
+        "1640683964be3db333-2",
+        "1640683964be3db333-3"
+      ],
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "left",
+        "color": "#4d4d4d",
+        "icon_color": "#4d4d4d",
+        "background_color": "#f8f8f8",
+        "mobile_layout": "slider"
+      }
+    },
+    "1657118673a51980ae": {
+      "type": "dynamic-page",
+      "settings": {
+        "width": "full-width",
+        "page": "why-buy-unlocked-phones-test-page",
+        "show_heading": true,
+        "heading_size": "medium"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1634875504a35f0c75",
+    "d8acdfd4-768e-4c20-9ee0-b2ec16f20722",
+    "3cffa48d-d68a-4ff9-acd7-3dd03a23551a",
+    "1588f9a1-ead2-4494-9a15-d221ee1eeba9",
+    "00e65b9b-c5ec-4e89-a2f1-1d4e33d6951d",
+    "b9731452-52cb-48b7-aa7e-d1f08fa34623",
+    "3c64d348-a139-4d9c-bf3a-df217d86c184",
+    "eb2214bc-5d90-4dc0-9354-bcee192f3d67",
+    "d0ba829a-e9e3-4d1c-a6b5-3a73125681be",
+    "recommendations",
+    "164073454472806740",
+    "recently-viewed",
+    "1640683964d65b02d9",
+    "1657118673a51980ae"
+  ]
+}

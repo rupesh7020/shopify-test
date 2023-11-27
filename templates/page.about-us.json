@@ -1,0 +1,44 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {
+      }
+    },
+    "16651320473ded70f8": {
+      "type": "apps",
+      "blocks": {
+        "afc3252a-1525-4b34-be75-f59069b50359": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-testimonial-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1000,
+            "maxNumberOfCharacters": 300,
+            "quoteMarkIcon": "style-5",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "starsColor": "",
+            "quotesIconColor": "#EAEAEA",
+            "arrows_iconColor": "#000000",
+            "arrows_hideOnMobile": false,
+            "pagination_active": false,
+            "pagination_selectedDotColor": "#000000",
+            "pagination_dotColor": "#000000",
+            "autoplay_active": true,
+            "autoplay_duration": 3,
+            "productIds": ""
+          }
+        }
+      },
+      "block_order": [
+        "afc3252a-1525-4b34-be75-f59069b50359"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16651320473ded70f8"
+  ]
+}
