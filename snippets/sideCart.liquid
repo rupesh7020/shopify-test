@@ -138,7 +138,7 @@
   }
   function loadCart() {
     // Define the URL to fetch data from
-    const apiUrl = 'https://www.wirelessplace.com/cart?view=cartjs';
+    const apiUrl = `{{ shop.permanent_domain }}/cart?view=cartjs`;
 
     // Reference to the element where you want to add the data
     const staticCartElement = document.getElementById('staticCart');
